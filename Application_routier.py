@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score
 # Importer la base de données et faire une description
-df = pd.read_csv("Fluidite_routiers_nantes.csv")
+df = pd.read_csv("Fluidite_routiers_nantes_0.csv")
 df.drop('id', axis=1, inplace=True)
 df.head(5)
 df.drop('cha_id', axis=1, inplace=True)
